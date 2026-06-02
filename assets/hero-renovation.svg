@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-label="Lyst, nyrenoveret rum med vindue, trægulv og planter">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ECE4D6"/>
+      <stop offset="1" stop-color="#E3D7C3"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D9BE96"/>
+      <stop offset="1" stop-color="#C7A87B"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBF6EC"/>
+      <stop offset="0.6" stop-color="#E7EFEA"/>
+      <stop offset="1" stop-color="#DCE8E5"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- wall + floor -->
+  <rect width="800" height="640" fill="url(#wall)"/>
+  <rect y="500" width="800" height="140" fill="url(#floor)"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#B9986C" stroke-width="2" opacity="0.5"/>
+  <g stroke="#BC9C70" stroke-width="1.5" opacity="0.45">
+    <line x1="150" y1="500" x2="120" y2="640"/>
+    <line x1="360" y1="500" x2="350" y2="640"/>
+    <line x1="560" y1="500" x2="585" y2="640"/>
+  </g>
+
+  <!-- daylight beam across floor -->
+  <polygon points="470,470 690,470 760,640 360,640" fill="url(#beam)"/>
+
+  <!-- window -->
+  <g>
+    <rect x="430" y="86" width="296" height="384" rx="10" fill="#1F5E5B"/>
+    <rect x="446" y="102" width="264" height="352" rx="4" fill="url(#sky)"/>
+    <!-- distant soft hills seen through glass -->
+    <path d="M446 360 q60 -46 132 -10 q70 34 132 -6 V454 H446 Z" fill="#CBD9CC" opacity="0.8"/>
+    <path d="M446 392 q70 -30 140 0 q66 26 124 -4 V454 H446 Z" fill="#B7CBB8" opacity="0.75"/>
+    <!-- mullions -->
+    <line x1="578" y1="102" x2="578" y2="454" stroke="#1F5E5B" stroke-width="10"/>
+    <line x1="446" y1="278" x2="710" y2="278" stroke="#1F5E5B" stroke-width="10"/>
+    <!-- sill -->
+    <rect x="416" y="470" width="324" height="16" rx="4" fill="#F4EEE2"/>
+  </g>
+
+  <!-- framed art on the left wall -->
+  <rect x="120" y="150" width="150" height="116" rx="6" fill="#FAF8F4" stroke="#1F5E5B" stroke-width="6"/>
+  <rect x="138" y="168" width="114" height="80" rx="3" fill="#DCE8E5"/>
+  <path d="M138 232 l34 -40 26 26 28 -34 26 48 Z" fill="#8A9A7B" opacity="0.8"/>
+
+  <!-- floor plant, clay pot + sage leaves -->
+  <g>
+    <path d="M150 500 q4 -120 -18 -176 M150 500 q2 -96 30 -150 M150 500 q-2 -80 -44 -120 M150 500 q0 -70 52 -104" fill="none" stroke="#7E9070" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="118" cy="332" rx="20" ry="40" fill="#8A9A7B"/>
+    <ellipse cx="186" cy="356" rx="18" ry="38" fill="#7E9070"/>
+    <ellipse cx="106" cy="384" rx="16" ry="34" fill="#94A585"/>
+    <ellipse cx="200" cy="402" rx="15" ry="30" fill="#8A9A7B"/>
+    <path d="M120 500 h60 l-8 -84 h-44 Z" fill="#C8956D"/>
+    <path d="M112 500 h76 v-8 h-76 Z" fill="#B98155"/>
+  </g>
+
+  <!-- low side stool, light wood -->
+  <g fill="#CDB083">
+    <rect x="300" y="438" width="96" height="20" rx="6"/>
+    <rect x="308" y="458" width="12" height="42" rx="4"/>
+    <rect x="376" y="458" width="12" height="42" rx="4"/>
+  </g>
+</svg>
