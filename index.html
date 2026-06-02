@@ -81,13 +81,18 @@
           </ul>
         </div>
 
-        <div class="hero-visual reveal" aria-hidden="true">
+        <div class="hero-visual reveal">
           <div class="hero-frame">
             <div class="hero-photo">
-              <span class="hero-photo-tag">Din renovering</span>
+              <!-- Swap this src for a real renovation photo (JPG/WebP); the frame
+                   crops it to fit via object-fit: cover. Keep a descriptive alt. -->
+              <img class="hero-photo-img" src="assets/hero-renovation.svg"
+                   alt="Lyst, nyrenoveret rum med stort vindue, lyst trægulv og grønne planter"
+                   width="800" height="640" loading="eager" decoding="async" />
+              <span class="hero-photo-tag" aria-hidden="true">Din renovering</span>
             </div>
             <!-- material swatches -->
-            <div class="swatches">
+            <div class="swatches" aria-hidden="true">
               <span class="swatch sw-wood" title="Træ"></span>
               <span class="swatch sw-tile" title="Fliser"></span>
               <span class="swatch sw-paint" title="Maling"></span>
@@ -96,8 +101,8 @@
             <div class="hero-card">
               <span class="hero-card-dot"></span>
               <div>
-                <strong>Anbefalet materiale</strong>
-                <span>Passer til dit budget &amp; rum</span>
+                <strong>Spar på materialerne</strong>
+                <span>Anbefalet til dit budget &amp; rum</span>
               </div>
             </div>
           </div>
@@ -112,6 +117,28 @@
         <div class="stat"><strong>Uvildig</strong><span>rådgivning — ikke salgstale</span></div>
         <div class="stat"><strong>Ét samlet</strong><span>tilbud, klar til at handle</span></div>
         <div class="stat"><strong>For boligejere</strong><span>— ikke håndværkere</span></div>
+      </div>
+    </section>
+
+    <!-- ───────────── Savings (the value justification) ───────────── -->
+    <section class="savings" id="besparelse">
+      <div class="container savings-inner">
+        <div class="savings-figure reveal">
+          <p class="eyebrow">Derfor betaler det sig</p>
+          <p class="savings-number">Spar tusindvis<span>af kroner på dine materialer</span></p>
+        </div>
+        <div class="savings-detail reveal">
+          <p class="savings-copy">
+            De dyreste fejl i en renovering sker ved materialevalget — forkerte køb,
+            for store mængder og overpriser. Med uvildig rådgivning og ét samlet
+            tilbud rammer du rigtigt første gang.
+          </p>
+          <ul class="savings-points">
+            <li>Undgå dyre fejlkøb og materialer, der ikke holder</li>
+            <li>Ét samlet tilbud — slip for at jagte priser hos fem forskellige</li>
+            <li>Køb kun det rigtige — i den rigtige mængde</li>
+          </ul>
+        </div>
       </div>
     </section>
 
