@@ -1,5 +1,5 @@
 /* ============================================================
-   Materiale Agenten — "Nordisk Tillid" (Confident Nordic-Tech)
+   Renovations Rådgivning — "Nordisk Tillid" (Confident Nordic-Tech)
    See design.md for the full design system.
    ============================================================ */
 
@@ -258,12 +258,20 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-
   padding: 6px 12px; border-radius: 999px;
   backdrop-filter: blur(4px);
 }
-.swatches { display: flex; gap: 8px; margin-top: 12px; }
-.swatch { flex: 1; height: 30px; border-radius: 6px; border: 1px solid var(--border); }
-.sw-wood  { background: linear-gradient(180deg, #cba37a, #b07e4f); }
-.sw-tile  { background: linear-gradient(180deg, #e7e0d4, #cfc6b6); }
-.sw-paint { background: linear-gradient(180deg, var(--sage), #6f8060); }
-.sw-linen { background: linear-gradient(180deg, #efe9dd, #d8cdb8); }
+.topics { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.topic {
+  flex: 1 1 auto;
+  text-align: center;
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
 
 .hero-card {
   position: absolute;

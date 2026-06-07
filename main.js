@@ -1,4 +1,4 @@
-// Materiale Agenten — landing page interactions.
+// Renovations Rådgivning — landing page interactions.
 // Scroll-reveal only. Kept tiny and dependency-free for GitHub Pages.
 
 (function () {
