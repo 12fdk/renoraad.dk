@@ -138,10 +138,12 @@ precision. No serif. Set generous line-height for calm, readable copy.
 
 ### "Sådan virker det" (How it works)
 
-- Horizontal 4-step row on desktop (`01 → 02 → 03 → 04`), stacked on mobile.
+- 6 steps in a grid: 3 columns × 2 rows on desktop, 2 columns on tablet,
+  stacked on mobile.
 - Big tabular accent numeral, short heading, one line of copy, thin connector
-  rule between steps. Mirrors the 4-step user journey:
-  **Opret → Beskriv renovering → Få rådgivning → Kom trygt videre.**
+  rule between steps. Mirrors the 6-step user journey:
+  **Fortæl om projekt → Vi vurderer → Betal (MobilePay) → Få rådgivning (e-mail,
+  3-5 dage) → Opfølgende spørgsmål → Byg dit projekt.**
 
 ### Trust elements (high priority for conversion)
 

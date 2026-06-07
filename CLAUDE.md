@@ -11,13 +11,17 @@ Landing page for the Renovations Rådgivning service, hosted on GitHub Pages.
 Marketing / landing page that introduces visitors to Renovations Rådgivning and
 directs them to get started.
 
-Renovations Rådgivning is an **independent renovation-advisory** service. The
-entire focus is on *advice / guidance* — NOT on materials. Users:
+Renovations Rådgivning is an **independent, paid renovation-advisory** service.
+The entire focus is on *advice / guidance* — NOT on materials. The flow (6
+steps, mirrored in the "Sådan virker det" section):
 
-- Sign up
-- Describe their renovation project (plans, wishes, challenges)
-- Receive impartial advice on the right choices for their renovation
-- Come away with a clear recommendation and next step
+1. The user sends all the details about their project.
+2. We review it and reply whether it's a case we can help with.
+3. The user pays via **MobilePay**.
+4. We work through the project and deliver our advice by **e-mail within 3-5
+   days**.
+5. The user can send any follow-up questions.
+6. The user builds their project — faster and more efficiently than before.
 
 Do not reintroduce material lists, material recommendations, or "offer on
 materials" — that was the old positioning and has been deliberately removed.
