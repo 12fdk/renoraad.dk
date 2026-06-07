@@ -1,14 +1,14 @@
 # Design
 
 This document captures the visual identity, layout conventions, typography,
-colour, and component patterns for **materialeagenten.dk** — the marketing /
-landing page for app.materialeagenten.dk.
+colour, and component patterns for **renoraad.dk** — the marketing / landing
+page for the Renovations Rådgivning service.
 
 ## Direction: "Nordisk Tillid" (Confident Nordic-Tech)
 
 A clean, warm, Scandinavian aesthetic that signals a **smart, capable service**
 without feeling cold or corporate. The page should reassure a private homeowner
-mid-renovation that material decisions are in safe hands — competent and
+mid-renovation that their renovation decisions are in safe hands — competent and
 precise, but approachable.
 
 **Personality:** trustworthy · calm · precise · modern · Danish.
@@ -24,7 +24,7 @@ Guiding principles:
 - **Structure signals competence.** A tight, visible grid with crisp dividers
   communicates that the service is organised and dependable.
 - **Real over stock.** Use authentic project photography (real Danish homes,
-  real materials) wherever possible. Authentic visuals are the strongest trust
+  real renovations) wherever possible. Authentic visuals are the strongest trust
   signal for this audience.
 
 ## Colour
@@ -141,7 +141,7 @@ precision. No serif. Set generous line-height for calm, readable copy.
 - Horizontal 4-step row on desktop (`01 → 02 → 03 → 04`), stacked on mobile.
 - Big tabular accent numeral, short heading, one line of copy, thin connector
   rule between steps. Mirrors the 4-step user journey:
-  **Opret → Beskriv projekt → Få rådgivning → Modtag tilbud.**
+  **Opret → Beskriv renovering → Få rådgivning → Kom trygt videre.**
 
 ### Trust elements (high priority for conversion)
 
@@ -164,8 +164,9 @@ precision. No serif. Set generous line-height for calm, readable copy.
 
 - **Photography:** real Danish homes mid- or post-renovation, natural light,
   light wood, neutral interiors. Warm tone, never blue/cold colour grade.
-- **Material close-ups:** wood grain, tile, paint, linen — adds tactility and
-  reinforces the "materials" theme.
+- **Renovation moments:** in-progress rooms, light wood, tools at rest, finished
+  details — adds tactility and reinforces the "real renovation" theme. Avoid
+  making materials the subject; the service advises, it does not sell materials.
 - **Subtle texture only:** a faint paper/grain on large flat sections is OK for
   depth; never let it compete with content or hurt performance.
 - Avoid generic corporate stock, handshakes, and clip-art.
@@ -181,8 +182,8 @@ precision. No serif. Set generous line-height for calm, readable copy.
 
 - Approachable, trustworthy, practical — speaking to a **private homeowner**,
   not a contractor. Plain Danish, "du"-form, no industry jargon.
-- Lead with reassurance and outcomes ("Tryghed i dit materialevalg",
-  "Få det rigtige materiale første gang"), not features.
+- Lead with reassurance and outcomes ("Tryghed i din renovering",
+  "Træf de rigtige valg — undgå dyre fejl"), not features.
 - Keep CTAs concrete and low-pressure: **"Kom i gang"**, **"Start dit projekt"**.
 
 ## Languages
@@ -191,8 +192,9 @@ precision. No serif. Set generous line-height for calm, readable copy.
 - Design for text expansion: EN strings can run ~15–30% longer than DA. Don't
   hard-code widths around copy; let buttons and headings wrap gracefully.
 - Use full Danish characters (æ ø å) — confirm the chosen webfont renders them.
-- Brand name renders as **Materiale Agenten** (two words) in all copy; the
-  domain `materialeagenten.dk` (one word) only in URLs.
+- Brand name renders as **Renovations Rådgivning** in all copy; the domain
+  `renoraad.dk` (Renoraad = Renovations Rådgivning, collapsed and without
+  æ/ø/å) only in URLs.
 
 ## Accessibility
 

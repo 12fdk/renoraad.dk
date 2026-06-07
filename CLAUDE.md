@@ -1,22 +1,30 @@
-# Materiale Agenten
+# Renovations Rådgivning
 
-Brand / page name: **Materiale Agenten** (two words, with a space).
-Domain: `materialeagenten.dk` (one word, no space — required for the URL).
+Brand / page name: **Renovations Rådgivning**.
+Domain: `renoraad.dk` (Renoraad = **Reno**vations **Råd**givning; the domain
+collapses to one word with no æ/ø/å for the URL).
 
-Landing page for **app.materialeagenten.dk**, hosted on GitHub Pages.
+Landing page for the Renovations Rådgivning service, hosted on GitHub Pages.
 
 ## Purpose
 
-Marketing / landing page that introduces visitors to Materiale Agenten and
-directs them to sign up at app.materialeagenten.dk.
+Marketing / landing page that introduces visitors to Renovations Rådgivning and
+directs them to get started.
 
-app.materialeagenten.dk is a service where users:
+Renovations Rådgivning is an **independent renovation-advisory** service. The
+entire focus is on *advice / guidance* — NOT on materials. Users:
 
 - Sign up
-- Provide info about their project
-- Provide their material list
-- Receive advice on material choice
-- Receive an offer for the materials
+- Describe their renovation project (plans, wishes, challenges)
+- Receive impartial advice on the right choices for their renovation
+- Come away with a clear recommendation and next step
+
+Do not reintroduce material lists, material recommendations, or "offer on
+materials" — that was the old positioning and has been deliberately removed.
+
+The app URL / login is not finalised — the login button has been removed for
+now. Primary CTAs currently point to the `#kontakt` section (final CTA band),
+whose button uses a `mailto:` placeholder. Update these once the app is ready.
 
 ## Audience & languages
 
